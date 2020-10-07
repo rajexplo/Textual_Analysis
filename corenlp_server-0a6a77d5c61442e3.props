@@ -1,0 +1,8 @@
+annotators = tokenize, ssplit, pos, lemma, ner, depparse
+
+outputFormat = serialized
+
+serializer = edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer
+
+ner.applyFineGrained = false
+
